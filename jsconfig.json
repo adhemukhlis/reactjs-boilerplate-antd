@@ -1,0 +1,16 @@
+{
+	"compilerOptions": {
+		"resolveJsonModule": true,
+		"jsx": "preserve",
+		"module": "commonjs",
+		"target": "es6",
+		"sourceMap": true,
+		"allowSyntheticDefaultImports": true,
+		"baseUrl": ".",
+		"paths": {
+			"@root/*": ["./*"],
+			"@src/*": ["./src/*"]
+		}
+	},
+	"exclude": [ "node_modules", "build" ]
+}

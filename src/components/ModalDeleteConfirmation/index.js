@@ -1,0 +1,1 @@
+export { ModalDeleteConfirmation } from './modal-delete-confirmation';
